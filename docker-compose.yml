@@ -1,7 +1,7 @@
 version: "3.8"
 services:
     web:
-        build: ./app
+        build: ./glsteel
         image: 484063240365.dkr.ecr.us-east-2.amazonaws.com/django_docker_aws_web
     pg:
         container_name: pg_container
